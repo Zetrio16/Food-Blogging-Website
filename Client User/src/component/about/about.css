@@ -1,0 +1,101 @@
+/* Body */
+body {
+    font-family: "Times New Roman", Georgia, Serif;
+}
+
+/* Headers */
+.food-blog-h1 {
+    font-family: "Playfair Display";
+    letter-spacing: 5px;
+}
+
+/* Navbar */
+.top-nav {
+    position: fixed;
+    width: 100%;
+}
+
+.nav-bar {
+    width: 100%;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.nav-item {
+    padding: 20px 16px;
+    display: block;
+    float: left;
+    text-align: center;
+    text-decoration: none;
+}
+
+.right-nav {
+    float: right!important;
+}
+
+/* Header */
+.display-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.content-wide {
+    max-width: 1600px;
+    min-width: 500px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+/* About Section */
+.page-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -16px;
+}
+
+.about-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.page-col {
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+    padding: 0 16px;
+}
+
+.padding-large {
+    padding: 20px;
+}
+
+.hide-small {
+    display: none!important;
+}
+
+/* Menu Section */
+.text-grey {
+    color: #757575;
+}
+
+.menu-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Footer */
+.center {
+    text-align: center!important;
+}
+
+.padding-32 {
+    padding-top: 32px!important;
+    padding-bottom: 32px!important;
+}
+
+.hover-text-green:hover {
+    color: #4CAF50!important;
+}

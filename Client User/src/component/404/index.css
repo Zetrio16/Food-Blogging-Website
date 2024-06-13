@@ -1,0 +1,30 @@
+.headi {
+    font-size: 9rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    display: flex-inline;
+}
+
+.error-404 {
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px 4px #860000;
+}
+
+.no-fav {
+    font-size: 25px;
+    color: #666;
+}
+
+.text-center {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#img-error {
+    margin-top: 10px;
+    margin-right: 20px;
+    width: 30rem;   
+}

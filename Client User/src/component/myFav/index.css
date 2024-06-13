@@ -1,0 +1,20 @@
+.noFavouriteFound
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+.deleteFavRecipe
+{
+    color: #ff7675;
+    background: none;
+    border: none;
+    outline: none;
+    float: inline-end;
+}
+
+.deleteFavRecipe:hover
+{
+    color: #d63031;
+}

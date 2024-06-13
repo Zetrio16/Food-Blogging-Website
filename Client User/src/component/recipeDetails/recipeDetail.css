@@ -1,0 +1,56 @@
+
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  background: rgb(242 242 242);
+  scrollbar-width: none;
+}
+
+.card-a {
+  position: relative;
+  width: 80%;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+  padding: 20px;
+}
+
+.card-a:hover {
+  transform: scale(1.025);
+}
+
+
+.image-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  
+}
+
+.ca-image {
+  width: 25vh;
+  height: 25vh;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  object-fit: cover;
+}
+
+.ca-text{
+  scrollbar-width: none;
+  padding-left: 20px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.ca-title {
+  font-weight: 800;
+  font-size: 40px;
+}
+
+.ca-description {
+  font-size: 16px;
+  color: #666;
+}

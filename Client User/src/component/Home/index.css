@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+li,
+img {
+    scrollbar-width: none;
+}
+
+@font-face {
+    font-family: 'Alex Brush';
+    src: url('../../font/alex-brush/AlexBrush-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scrollbar-width: thin;
+}
+/* 
+.bg-img{
+    background-image: url('');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+
+} */
+
+.bg-text {
+    background-color: rgba(176, 173, 173, 0.164);
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 20px;
+    font-weight: bold;   
+    padding: 10px;
+}
+
+/* font over gray bg */
+
+#style-h3 {
+    padding: 10px;
+    text-align: center;
+}
+
+#style-h2 {
+    display: inline;
+    margin-left: 10px;
+    font-size: 50px;
+    font-family: 'Alex Brush', cursive;
+}
+
+/* cards */
+
+.container {
+    margin-top: 10vh;
+    margin-bottom: 30px;
+}
+
+.card {
+    margin-bottom: 20px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: relative;
+    scrollbar-width: none;
+    height: 80vh;
+}
+
+.card img {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    max-width: 100%;
+    height: 30vh;
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+
+.card img:hover {
+    opacity: 0.8;
+}
+
+.card-text {
+    font-size: 1.25rem;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    font-size: 1rem;
+    color: #3d3d3d;
+    scrollbar-width: none;
+}
+
+.c-title {
+    font-size: 1rem;
+    font-weight: bold;
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 10px;
+    width: 70%;
+    background-color: rgb(250, 148, 148);
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.c-title:hover {
+    background-color: #2d3436;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s all;
+}
+
+.custom-link {
+    color: black;
+}
+
+.custom-link:hover {
+    color: rgb(174, 0, 0);
+    text-decoration: none;
+}
+div {
+    -ms-overflow-style: none;
+    scrollbar-width: none;  
+  }
+
+
+@media (max-width: 768px) {
+    .card img {
+        height: 50vh;
+    }
+    .card-text{
+        font-size: 1.1rem;
+        justify-content: justify;
+    }
+    .card{
+        margin: 0 auto;
+        margin-bottom: 20px;
+        width: 90%;
+        height: 72vh;
+    }
+    .c-title {
+        font-size: 1.2rem;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1200px) {
+    .card img {
+        height: 40vh;
+    }
+    .card-text{
+        font-size: 1.1rem;
+        justify-content: justify;
+    }
+    .card{
+        height: 60vh;
+    }
+    .c-title {
+        font-size: 1.2rem;
+    }
+}
+
+@media (min-width: 1201px) {
+    .card img {
+        height: auto;
+    }
+    .card-text{
+        font-size: 1rem;
+        justify-content: justify;
+    }
+    .card{
+        height: 71vh;
+    }
+}
+.c-title
+{
+    color: white;
+
+}

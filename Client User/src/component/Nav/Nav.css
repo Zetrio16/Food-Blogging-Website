@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: white;
+    color: #2d3436;
+    flex-wrap: wrap;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+    margin-left: auto;
+    scrollbar-width: none;
+    margin-right: 1rem;
+}
+
+.nav-menu li {
+    margin-left: 1.5rem;
+    text-decoration: none;
+    margin-top: 20px;
+    margin-right: 1rem;
+}
+
+.nav-menu li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.nav-menu a:hover,
+.nav-menu li:hover {
+    transform: scale(1.05);
+    transition: transform 0.2s linear;
+    color: rgb(254, 99, 99);
+}
+
+.nav-menu a:focus,
+a:active {
+    color: rgb(254, 99, 99);
+}
+
+.nav-logo {
+    height: 100px;
+    margin-right: 10px;
+}
+
+.food-blog-h1 {
+    margin-top: 1rem;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #2d3436;
+}
+
+.logoutBtn {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 5px 10px;
+    background: rgb(254, 99, 99);
+    color: white;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+.logoutBtn:hover {
+    background: rgb(0, 0, 0);
+    color: white;
+    cursor: pointer;
+}
+
+button {
+    cursor: pointer;
+}
+
+@media (min-width: 1201px) {
+    .icon-nav {
+        display: inline-flex;
+        align-items: center;
+        height: 100px; 
+    }
+}
+
+@media (max-width: 1200px) {
+    .icon-nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        height: 100px; 
+    }
+    .nav-menu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        height: 100px;
+    }
+}
